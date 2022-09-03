@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.8;
 
 // Don't forget to add this import
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
@@ -35,7 +35,7 @@ contract Domains is ERC721URIStorage {
     // We make the contract "payable" by adding this to the constructor
     constructor(string memory _tld)
         payable
-        ERC721("Ninja Name Service", "NNS")
+        ERC721("Ninja Domain Service", "NDS")
     {
         owner = payable(msg.sender);
         tld = _tld;
@@ -146,7 +146,6 @@ contract Domains is ERC721URIStorage {
         return records[name];
     }
 
-    // Add this anywhere in your contract body
     function getAllNames() public view returns (string[] memory) {
         console.log("Getting all names from contract");
         string[] memory allNames = new string[](_tokenIds.current());

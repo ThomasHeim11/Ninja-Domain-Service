@@ -8,11 +8,11 @@ import { networks } from "./utils/networks";
 import contractAbi from "./contracts/contracts/Domains.sol/Domains.json";
 
 // Constants
-const TWITTER_HANDLE = "YSoenggoro";
+const TWITTER_HANDLE = "ThomasHeimWeb3";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 // Add the domain you will be minting
 const tld = ".ninja";
-const CONTRACT_ADDRESS = "0xaC0B3A99a91181d0C420DA3F8512Fa919216501f";
+const CONTRACT_ADDRESS = "0x2817ea811922364DBbc3BBdF73CD6e18C98e7A79";
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
