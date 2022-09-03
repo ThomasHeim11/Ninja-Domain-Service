@@ -1,4 +1,16 @@
+# Ninja Domain Service
+
 ![image](https://user-images.githubusercontent.com/106417552/188287412-42534087-ca3c-4b7b-9fa2-48a800914621.png)
+
+## Getting Started
+
+This is a [React.js](https://reactjs.org/) project. 
+
+First, run the development server:
+
+```bash
+npm start
+```
 
 
 
