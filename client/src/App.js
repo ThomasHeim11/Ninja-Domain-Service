@@ -8,7 +8,7 @@ import { networks } from "./utils/networks";
 import contractAbi from "./contracts/contracts/Domains.sol/Domains.json";
 
 // Constants
-const TWITTER_HANDLE = "ThomasHeimWeb3";
+const TWITTER_HANDLE = "Web3Heim";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 // Add the domain you will be minting
 const tld = ".ninja";
@@ -18,6 +18,7 @@ const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
   const [network, setNetwork] = useState("");
   const [domain, setDomain] = useState("");
+  
   const [record, setRecord] = useState("");
   const [editing, setEditing] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -266,7 +267,7 @@ const App = () => {
         <div className="header-container">
           <header>
             <div className="left">
-              <p className="title">🐱‍👤 Ninja Name Service</p>
+              <p className="title">🐱‍👤 Ninja Domain Service </p>
               <p className="subtitle">Your immortal API on the blockchain!</p>
             </div>
             {/* Display a logo and wallet connection status*/}
