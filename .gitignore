@@ -4,7 +4,7 @@ coverage
 coverage.json
 typechain
 netlify.toml
-_redirects
+
 
 #Hardhat files
 cache
