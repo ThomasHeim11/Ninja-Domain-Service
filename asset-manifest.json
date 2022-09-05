@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ninja-Domain-Service/static/css/main.aabb18ee.css",
+    "main.js": "/Ninja-Domain-Service/static/js/main.72df04dc.js",
+    "static/media/twitter-logo.svg": "/Ninja-Domain-Service/static/media/twitter-logo.a8a752547c2913d8bc15e5df109748a6.svg",
+    "static/media/polygonlogo.png": "/Ninja-Domain-Service/static/media/polygonlogo.6cde40a9b9119621eb2b.png",
+    "index.html": "/Ninja-Domain-Service/index.html",
+    "main.aabb18ee.css.map": "/Ninja-Domain-Service/static/css/main.aabb18ee.css.map",
+    "main.72df04dc.js.map": "/Ninja-Domain-Service/static/js/main.72df04dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aabb18ee.css",
+    "static/js/main.72df04dc.js"
+  ]
+}
